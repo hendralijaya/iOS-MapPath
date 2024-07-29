@@ -11,6 +11,7 @@
 		23149EBB2C52305700584A62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23149EBA2C52305700584A62 /* ContentView.swift */; };
 		23149EBD2C52305800584A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23149EBC2C52305800584A62 /* Assets.xcassets */; };
 		23149EC02C52305800584A62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23149EBF2C52305800584A62 /* Preview Assets.xcassets */; };
+		23149EC82C52B7B800584A62 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23149EC72C52B7B800584A62 /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		23149EBA2C52305700584A62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23149EBC2C52305800584A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23149EBF2C52305800584A62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23149EC62C52307300584A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23149EC72C52B7B800584A62 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		23149EB72C52305700584A62 /* MapPath */ = {
 			isa = PBXGroup;
 			children = (
+				23149EC62C52307300584A62 /* Info.plist */,
 				23149EB82C52305700584A62 /* MapPathApp.swift */,
 				23149EBA2C52305700584A62 /* ContentView.swift */,
+				23149EC72C52B7B800584A62 /* LocationDetailsView.swift */,
 				23149EBC2C52305800584A62 /* Assets.xcassets */,
 				23149EBE2C52305800584A62 /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23149EBB2C52305700584A62 /* ContentView.swift in Sources */,
+				23149EC82C52B7B800584A62 /* LocationDetailsView.swift in Sources */,
 				23149EB92C52305700584A62 /* MapPathApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +281,9 @@
 				DEVELOPMENT_TEAM = BHS88Y2WBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapPath/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,9 @@
 				DEVELOPMENT_TEAM = BHS88Y2WBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapPath/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
